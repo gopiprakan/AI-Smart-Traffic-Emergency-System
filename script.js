@@ -186,7 +186,7 @@ async function handleVideoUpload(lane, input) {
     resultsDiv.style.display = 'none';
     alertDiv.style.display = 'none';
 
-    // Clear existing interval if restarting video or uploading new one
+    //Clear existing interval if restarting video or uploading new one
     if (processingIntervals[lane]) {
         clearInterval(processingIntervals[lane]);
     }
